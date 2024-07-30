@@ -27,5 +27,5 @@ async function insertData(){
     `)
 }
 
-// createUsersTable();
+createUsersTable();
 insertData();

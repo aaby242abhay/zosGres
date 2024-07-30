@@ -31,9 +31,9 @@ function insertData() {
     return __awaiter(this, void 0, void 0, function* () {
         yield client.connect();
         const result = yield client.query(`
-        insert into users (username, email, password) values ('test', 'aaby@gmail.com', '123456');
+        INSERT into users (username, email, password) values ('test', 'aaby@gmail.com', '123456');
     `);
     });
 }
-// createUsersTable();
+createUsersTable();
 insertData();
